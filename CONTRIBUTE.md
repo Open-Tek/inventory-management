@@ -22,7 +22,9 @@ Perform the following steps to start your contribution to our organization.
 6. One of the member of the organization will review your code and test it. Once it has been passed your feature would be merged with the application.
 
 ### Note : 
-    If you have any doubts regarding above steps or you are having any trouble then contact one of the members on slack. You can link to their slack account on [MEMBERS.md](MEMBERS.MD).
+    If you have any doubts regarding above steps or you are having any trouble then 
+    contact one of the members on slack. 
+    You can link to their slack account on [MEMBERS.md](MEMBERS.MD).
 
 ## Bug reporting
 

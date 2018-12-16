@@ -24,7 +24,7 @@ Perform the following steps to start your contribution to our organization.
 ### Note : 
     If you have any doubts regarding above steps or you are having any trouble then 
     contact one of the members on slack. 
-    You can link to their slack account on [MEMBERS.md](MEMBERS.MD).
+    You can link to their slack account from MEMBERS.md file.
 
 ## Bug reporting
 

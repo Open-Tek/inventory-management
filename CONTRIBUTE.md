@@ -2,6 +2,28 @@
 
 As an open source organization, open-tek welcomes contributions of many forms.
 
+## Pre-requisites
+Following are a set of simple tools that you must know to get started with the contributions : 
+1. Git [Get Started with learning git.](https://www.codecademy.com/learn/learn-git)
+2. Github (Pull requests, commits and issues) [Get Started with learning github](https://guides.github.com/activities/hello-world/)
+3. A Slack account.
+
+Don't worry if you don't know how to use them you can learn them with the help of given links.
+
+
+## Getting started
+Before getting started please make sure you have all the above skills
+
+Perform the following steps to start your contribution to our organization.
+1. Fork this repository.
+2. Go to [FEATURES.MD](FEATURES.MD) to see the list of features available to develop. FEATURES.MD contains link to description about each and every feature of the project. The crossed out features means that the feature has been already implemented.
+4. After you have selected the feature of your choice create a branch with name "feature/<name_of_the_feature>".
+5. Now you can start implementing the feature once done push all the changes to the branch you have created and create a pull request to "review" branch.
+6. One of the member of the organization will review your code and test it. Once it has been passed your feature would be merged with the application.
+
+### Note : 
+    If you have any doubts regarding above steps or you are having any trouble then contact one of the members on slack. You can link to their slack account on [MEMBERS.md](MEMBERS.MD).
+
 ## Bug reporting
 
 We appreciate your effort to improve inventory-management by submitting a bug report. Before doing so, please check the following things: 

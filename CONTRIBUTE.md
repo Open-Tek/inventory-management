@@ -4,8 +4,8 @@ As an open source organization, open-tek welcomes contributions of many forms.
 
 ## Pre-requisites
 Following are a set of simple tools that you must know to get started with the contributions : 
-1. Git [Get Started with learning git.](https://www.codecademy.com/learn/learn-git)
-2. Github (Pull requests, commits and issues) [Get Started with learning github](https://guides.github.com/activities/hello-world/)
+1. Git ([Get Started with learning git.](https://www.codecademy.com/learn/learn-git))
+2. Github (Pull requests, commits and issues) ([Get Started with learning github](https://guides.github.com/activities/hello-world/))
 3. A Slack account.
 
 Don't worry if you don't know how to use them you can learn them with the help of given links.

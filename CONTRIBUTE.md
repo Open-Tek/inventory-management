@@ -17,9 +17,12 @@ Before getting started please make sure you have all the above skills
 Perform the following steps to start your contribution to our organization.
 1. Fork this repository.
 2. Go to [FEATURES.MD](FEATURES.MD) to see the list of features available to develop. FEATURES.MD contains link to description about each and every feature of the project. The crossed out features means that the feature has been already implemented.
-4. After you have selected the feature of your choice create a branch with name "feature/<name_of_the_feature>".
-5. Now you can start implementing the feature once done push all the changes to the branch you have created and create a pull request to "review" branch.
-6. One of the member of the organization will review your code and test it. Once it has been passed your feature would be merged with the application.
+4. After you have selected the feature of your choice, contact anyone of the member of the organization and inform him/her that your starting to implement the selected feature so that they can track the progress. 
+5. Now create a branch with name "feature/<name_of_the_feature>".
+6. Now you can start implementing the feature once done push all the changes to the branch you have created and create a pull request to "review" branch.
+7. One of the member of the organization will review your code and test it. Once it has been passed your feature would be merged with the application.
+
+Also if you implement any feature without consulting/informing any of the members your code won't be reviewed and accepted.
 
 ### Note : 
     If you have any doubts regarding above steps or you are having any trouble then 

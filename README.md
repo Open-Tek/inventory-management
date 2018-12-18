@@ -8,4 +8,4 @@ Go [here](CONTRIBUTE.md) to learn more about how to get started with contributio
 For any doubts regarding anything contact any one of the members of the organization on slack (A application for group communication).
 Their id can be found on [this page](../MEMBERS.md).
 
-Join our Slack Channel : https://open-tekworkspace.slack.com/messages/CEUB38AJC/
+Join our Slack Channel : [By clicking this link](https://join.slack.com/t/open-tekworkspace/shared_invite/enQtNTA3NjQ3OTQyODg3LTBkYWJjMmQzOWJmYjI1MGQzMTc4NTRlYjQ2ODljMzE4NzdmZmQzMDY4NjY4NWNiMDgzYzBlOWRmMTA4MjhhODY)

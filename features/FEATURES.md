@@ -8,8 +8,8 @@ May the force be with you ;)
 
 1. [Login](login_feature.md)
 2. [Sign Up](sign_up_feature.md)
-3. [Customers](customer_feature.md)
+4. [Category](category_feature.md)
 4. [Manufacturers](manufacturer_feature.md)
-5. [Products](product_feature.md)
-6. [Inventory](inventory_feature.md)
-7. [Reports](report_feature.md)
+
+More features will be added as soon as these features are implemented.
+Since those features are dependent on these features.s

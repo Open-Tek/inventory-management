@@ -6,7 +6,6 @@ Each and every feature in the list is followed a link to a file that describes t
 
 May the force be with you ;)
 
-1. [Login](login_feature.md)
 2. [Sign Up](sign_up_feature.md)
 4. [Category](category_feature.md)
 4. [Manufacturers](manufacturer_feature.md)

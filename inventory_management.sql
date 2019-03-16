@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Mar 16, 2019 at 08:40 AM
--- Server version: 5.7.21
--- PHP Version: 5.6.38
+-- Host: 127.0.0.1
+-- Generation Time: Mar 16, 2019 at 10:11 AM
+-- Server version: 10.1.28-MariaDB
+-- PHP Version: 7.1.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -338,6 +338,13 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `email`, `password`, `name`, `deleted`, `created_at`, `updated_at`, `created_by`, `updated_by`) VALUES
+(1, 'YuktaPeswani@open-tek.com', 'Yukta123', 'Yukta Peswani', 0, '2019-03-16 14:27:16', NULL, NULL, NULL);
+
+--
 -- Indexes for dumped tables
 --
 
@@ -505,7 +512,7 @@ ALTER TABLE `supplier`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

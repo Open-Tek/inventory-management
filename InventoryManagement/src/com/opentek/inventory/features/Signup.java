@@ -187,7 +187,6 @@ public class Signup extends javax.swing.JFrame {
        /**
      * Function Signup inserts the user into the database
      * @param     : keyEvent
-     * @returns   : nothing
      * 
      */
     private void btnSignupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSignupActionPerformed
@@ -210,7 +209,6 @@ public class Signup extends javax.swing.JFrame {
  /*
     * btnLoginActionPerformed opens the login page
     * @param   : key event
-    * @returns : nothing
     */
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         new login().setVisible(true);
@@ -220,7 +218,6 @@ public class Signup extends javax.swing.JFrame {
      /*
     * txtEmailKeyReleased() validates the Entered Email Addresss
     * @param   : key event
-    * @returns : nothing
     */
     private void txtEmailKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtEmailKeyReleased
         String emailPatternString = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-\\+]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
@@ -235,8 +232,6 @@ public class Signup extends javax.swing.JFrame {
     }//GEN-LAST:event_txtEmailKeyReleased
  /*
     * Function clearFields clears all the input fields in the form
-    * @param   : Nothing
-    * @returns : nothing
     */
     private void clearFields(){
         txtName.setText("");

@@ -118,6 +118,11 @@ public class login extends javax.swing.JFrame implements LoginFeature {
         btnSignup.setText("SIGNUP");
         btnSignup.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
         btnSignup.setOpaque(false);
+        btnSignup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSignupActionPerformed(evt);
+            }
+        });
 
         btnLogin.setBackground(new java.awt.Color(255, 255, 255));
         btnLogin.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
@@ -228,6 +233,11 @@ public class login extends javax.swing.JFrame implements LoginFeature {
                     txtEmail.setBorder(BorderFactory.createLineBorder(Color.red));
 		}
     }//GEN-LAST:event_txtEmailKeyReleased
+
+    private void btnSignupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSignupActionPerformed
+        new Signup().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btnSignupActionPerformed
 
     /**
      * @param args the command line arguments

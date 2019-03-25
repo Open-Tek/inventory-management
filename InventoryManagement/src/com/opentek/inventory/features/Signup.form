@@ -23,17 +23,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel2">
+    <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -43,96 +43,95 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="141" max="32767" attributes="0"/>
-                  <Component id="lblLogin" min="-2" pref="138" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="btnSignup" min="-2" pref="84" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="txtPassword" max="32767" attributes="0"/>
-                          <Component id="txtEmail" pref="325" max="32767" attributes="0"/>
-                          <Component id="lblEmail" min="-2" pref="98" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="134" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="66" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" pref="66" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtEmail" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtName" alignment="0" pref="294" max="32767" attributes="0"/>
+                              <Component id="txtPassword" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="btnLogin" min="-2" pref="114" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btnSignup" min="-2" pref="114" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="lblPassword" min="-2" pref="98" max="-2" attributes="0"/>
-                      <EmptySpace pref="273" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="173" max="32767" attributes="0"/>
-                      <Component id="btnLogin" min="-2" pref="84" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
-                  </Group>
+                  <EmptySpace pref="88" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                  <Component id="lblLogin" min="-2" pref="47" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
-                  <Component id="txtEmail" min="-2" pref="48" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="lblEmail" min="-2" pref="34" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="39" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Component id="txtName" min="-2" pref="39" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="txtPassword" min="-2" pref="49" max="-2" attributes="0"/>
-                  <EmptySpace pref="63" max="32767" attributes="0"/>
-                  <Component id="btnSignup" min="-2" pref="38" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-              </Group>
-              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
-                      <Component id="lblPassword" min="-2" pref="34" max="-2" attributes="0"/>
-                      <EmptySpace pref="313" max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txtEmail" min="-2" pref="39" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txtPassword" min="-2" pref="44" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnSignup" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btnLogin" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                   </Group>
-              </Group>
-              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="434" max="32767" attributes="0"/>
-                      <Component id="btnLogin" min="-2" pref="38" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                  </Group>
+                  <EmptySpace pref="40" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="lblLogin">
+        <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri" size="36" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="LOGIN"/>
+            <Property name="text" type="java.lang.String" value="SIGNUP"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblEmail">
+        <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri" size="24" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Password"/>
+            <Property name="text" type="java.lang.String" value="Name"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblPassword">
+        <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri" size="24" style="0"/>
             </Property>
@@ -142,18 +141,44 @@
             <Property name="text" type="java.lang.String" value="Email"/>
           </Properties>
         </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="66" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Password"/>
+          </Properties>
+        </Component>
         <Component class="javax.swing.JTextField" name="txtEmail">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Calibri" size="24" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="33" green="33" red="33" type="rgb"/>
+              <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEmailActionPerformed"/>
             <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtEmailKeyReleased"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="66" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNameActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JPasswordField" name="txtPassword">
@@ -162,7 +187,7 @@
               <Font name="Calibri" size="24" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="33" green="33" red="33" type="rgb"/>
+              <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
           </Properties>
         </Component>
@@ -172,15 +197,15 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Calibri" size="18" style="0"/>
+              <Font name="Calibri" size="24" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="33" green="33" red="33" type="rgb"/>
+              <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="SIGNUP"/>
+            <Property name="text" type="java.lang.String" value="Signup"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                <LineBorder>
+                <LineBorder roundedCorners="true">
                   <Color PropertyName="color" blue="66" green="66" red="66" type="rgb"/>
                 </LineBorder>
               </Border>
@@ -197,15 +222,15 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Calibri" size="18" style="0"/>
+              <Font name="Calibri" size="24" style="0"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="33" green="33" red="33" type="rgb"/>
+              <Color blue="66" green="66" red="66" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="LOGIN"/>
+            <Property name="text" type="java.lang.String" value="Login"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                <LineBorder>
+                <LineBorder roundedCorners="true">
                   <Color PropertyName="color" blue="66" green="66" red="66" type="rgb"/>
                 </LineBorder>
               </Border>
